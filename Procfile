@@ -1,1 +1,1 @@
-web: gunicorn marketingparacafeteria.wsgi --log-file -
+web: gunicorn gestao_clientes.wsgi --log-file -
