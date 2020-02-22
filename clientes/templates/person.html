@@ -8,6 +8,14 @@
         <p>Olá {{ user.username }}</p>
         <a href="{% url 'logout' %}">Sair</a>
     {% endif %}
+    <p>
+    <form action="">
+        <label>nome</label><input type="text" name="nome">
+        <label>sobrenome</label><input type="text" name="sobrenome">
+
+        <button type="submit">Pesquisar</button>
+    </form>
+    </p>
     <ul>
     {% for person in persons %}
 
